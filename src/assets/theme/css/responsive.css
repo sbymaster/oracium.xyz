@@ -1,0 +1,124 @@
+/* Responsif untuk Tablet */
+@media (max-width: 768px) {
+    #navmenu-center {
+        display: none;
+    }
+
+    .custom-carousel .carousel-img.is-banner {
+        height: auto;
+    }
+
+    .custom-carousel .carousel-img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .ai-content-header,
+    #ai-message-body,
+    #ai-message-footer {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .ai-history-sidebar {
+        display: none;
+    }
+
+    .ai-history-sidebar.is-show {
+        position: fixed;
+        top: 5%;
+        left: 0;
+        width: 95%;
+        z-index: 99;
+        height: 95vh;
+        display: block;
+        padding: 0px !important;
+    }
+
+    .ai-message-sidebar {
+        padding: 0px !important;
+    }
+
+    .hero-h2-sub{
+        display: block !important;
+    }
+
+    .hero-h2-sub-second.rolling-text .rolling-text-line {
+        text-align: center !important;
+    }
+}
+
+/* Responsif untuk Smartphone */
+@media (max-width: 480px) {
+    #navmenu-center {
+        display: none;
+    }
+
+    .main-hero,
+    .second-hero {
+        height: auto !important;
+    }
+
+    .main-hero h2,
+    .second-hero h2 {
+        font-size: 30px !important;
+    }
+
+    .main-hero p.hero-desc,
+    .second-hero p.hero-desc {
+        font-size: 15px !important;
+    }
+
+    .custom-carousel .carousel-img.is-banner {
+        height: auto;
+    }
+
+    .custom-carousel .carousel-img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .choose-img {
+        margin: auto;
+    }
+
+    .choose-img .video-wrapper {
+        height: 500px;
+    }
+
+    .ai-content-header,
+    #ai-message-body,
+    #ai-message-footer {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .ai-history-sidebar {
+        display: none;
+    }
+
+    .ai-history-sidebar.is-show {
+        position: fixed;
+        top: 5%;
+        left: 0;
+        width: 95%;
+        z-index: 99;
+        height: 95vh;
+        display: block;
+        padding: 0px !important;
+    }
+
+    .ai-message-sidebar {
+        padding: 0px !important;
+    }
+
+    .hero-h2-sub{
+        display: block !important;
+    }
+
+    .hero-h2-sub-second.rolling-text .rolling-text-line {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 1199px) {}
